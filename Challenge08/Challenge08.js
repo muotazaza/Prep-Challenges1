@@ -57,18 +57,17 @@ const customerAndAge = (obj) => {
 // Note:
 // You can solve this challenge by using Object.entries
 
-const getRecipeKey = (recipe) => {
-    var arr = [];
-    for (const property in recipe) {
-        arr.push(`${property}: ${recipe[property]}`);
-    }
-    return arr;
-};
-
-const getEntries = (obj) => {
-    return getRecipeKey(obj)
-};
+   
   // write your code here
+  const getEntries = (obj) => {
+    let newArr=[];
+    
+    for (const property in obj) {
+     newArr.push  (`${property}: ${obj[property]}`) ;
+        
+      }
+      return newArr; 
+    
 };
 // -------------------------------------------------------------------------------------------------------
 
