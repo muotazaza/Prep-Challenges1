@@ -91,7 +91,7 @@ const objLat = (obj) => {
 //  2- If one of the names is null dont add it to the full name
 
 function fullname(){
-    let firstName=
+    let firstName=;
 }
 const cvFormatter = (arr) => {
         
